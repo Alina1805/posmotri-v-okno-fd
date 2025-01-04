@@ -114,7 +114,7 @@ ol {
   font-weight: 400;
 }
 
-.content__list{
+.content__list {
   width: 399px;
   max-height: 299px;
   overflow-y: auto;
@@ -193,12 +193,12 @@ ol {
   text-underline-offset: 0.2em;;
 }
 
-.search-form__checkbox-list{
+.search-form__checkbox-list {
       display: flex;
       gap: 15px;
 }
 
-.search-form__pseudo-checkbox{
+.search-form__pseudo-checkbox {
   border: 1px solid #FFFFFF;
   display: inline-block;
   background-color: transparent;
@@ -236,7 +236,7 @@ ol {
   margin-bottom: 26px;
 }
 
-.content__accent{
+.content__accent {
   color: #545050;
 }
 
@@ -254,7 +254,7 @@ ol {
   background-color: #545050;
 }
 
-.content__video-card-title{
+.content__video-card-title {
   font-family: 'Oswald' , sans-serif;
   font-size: 30px;
   line-height: 1;
@@ -265,7 +265,7 @@ ol {
   text-overflow: ellipsis;
 }
 
-.content__video-card-description{
+.content__video-card-description {
   font-weight: 400;
   line-height: 16px;
   overflow: hidden;
@@ -285,6 +285,7 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
 .button{
   border: 1px solid currentColor;
   background-color: transparent;
@@ -297,6 +298,7 @@ ol {
   transition: background-color 0.3s, color 0.3s;
   font-family: 'Fira Sans Condensed', sans-serif;
 }
+
 .search-form__submit-button {
   color: #FFFFFF;
   background-color: transparent;
