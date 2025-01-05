@@ -61,7 +61,7 @@ ol {
   gap: 30px;
   grid-template-areas: 
   "result content__details"
-  "result content__details";
+  "search-form content__details";
   grid-template-columns: 1fr auto;
   grid-template-rows: 1fr auto;
  }
