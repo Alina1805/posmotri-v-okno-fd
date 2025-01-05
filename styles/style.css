@@ -139,10 +139,11 @@ ol {
 
 .content__video-card-thumbnail {
   inline-size: 180px;
-  block-size: 103px; 
+  block-size: 103px;
   object-fit: cover;
   object-position: center;
 }
+
 .content__video-card-description-container {
   flex-grow: 1;
 }
@@ -193,14 +194,8 @@ ol {
   text-underline-offset: 0.2em;;
 }
 
-.search-form__checkbox-list {
-      display: flex;
-      gap: 15px;
-}
-
 .search-form__pseudo-checkbox {
   border: 1px solid #FFFFFF;
-  display: inline-block;
   background-color: transparent;
   width: 19px;
   height: 19px;
@@ -217,7 +212,7 @@ ol {
   opacity: 0;
   transition: opacity 0.2s ease;
   width: 15px;
-  height: 15px 
+  height: 15px; 
 }
 
 .search-form__checkbox:focus {
@@ -286,11 +281,11 @@ ol {
   white-space: nowrap;
 }
 
-.button{
+.button {
   border: 1px solid currentColor;
   background-color: transparent;
-  inline-size: 100%; 
-  block-size: 34px;  
+  inline-size: 100%;
+  block-size: 34px;
   color: #FFFFFF;
   font-weight: 700;
   font-size: 18px;
@@ -304,7 +299,7 @@ ol {
   padding: 6px 74px;
   margin-top: 20px;
   text-align: center;
-  align-self: flex-end; 
+  align-self: flex-end;
   width: 100%;
 }
 
@@ -314,7 +309,7 @@ ol {
 }
 
 .button:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .button:active {
