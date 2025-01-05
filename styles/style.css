@@ -138,8 +138,8 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  width: 180px;
-  height: 103px;
+  inline-size: 180px;
+  block-size: 103px; 
   object-fit: cover;
   object-position: center;
 }
@@ -174,7 +174,7 @@ ol {
 }
 
 .search-form__label:has(:focus-visible) {
-  border: 1px solid #FFFFFF;
+  outline: 1px solid #FFFFFF;
   outline-offset: 2px;
 }
 
@@ -230,7 +230,7 @@ ol {
 
 .title {
   font-size: 75px;
-  line-height: 69px;
+  line-height: 70.5px;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   margin-bottom: 26px;
@@ -242,7 +242,7 @@ ol {
 
 .content__card-link {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #545050
   display: block;
 }
 
@@ -289,25 +289,23 @@ ol {
 .button{
   border: 1px solid currentColor;
   background-color: transparent;
-  height: 34px;
+  inline-size: 100%; 
+  block-size: 34px;  
   color: #FFFFFF;
   font-weight: 700;
   font-size: 18px;
   text-decoration: none;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  transition: color 0.3s;
   font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .search-form__submit-button {
-  color: #FFFFFF;
-  background-color: transparent;
-  cursor: pointer;
-  align-self: flex-end;
   padding: 6px 74px;
   margin-top: 20px;
-  width: 100%;
   text-align: center;
+  align-self: flex-end; 
+  width: 100%;
 }
 
 .more-button {
